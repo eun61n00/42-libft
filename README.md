@@ -9,10 +9,13 @@ They begin withe the <code>'ft_'</code> prefix for 42(forty two).
 - srcs/<br>
    source code for libc functions
    - ft_substr: Allocates (with malloc(3)) and returns a substring from the string ’s’. The substring begins at index ’start’ and is of maximum size ’len’.
-- includes/
+- includes/<br>
    header file to include in source files
 - Makefile
 
 ### How to use
-1. Clone repository via git clone <code>https://github.com/eun61n00/42-libft.git</code>
+1. Clone repository via 
+   ```
+   git clone https://github.com/eun61n00/42-libft.git
+   ```
 2. Type <code>make</code> to make libft.a archive file. 
